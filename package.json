@@ -1,0 +1,36 @@
+{
+  "name": "js-to-groovy",
+  "version": "1.0.0",
+  "description": "A JavaScript to Groovy code transpiler based on AST analysis",
+  "main": "src/index.js",
+  "bin": {
+    "js2groovy": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "build": "echo 'No build needed for this package'"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "javascript",
+    "groovy",
+    "transpiler",
+    "ast",
+    "code-converter",
+    "babel"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
